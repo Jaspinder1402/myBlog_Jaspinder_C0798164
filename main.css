@@ -1,0 +1,188 @@
+body {
+    margin: 0px;
+    background-image: linear-gradient(to right, #b02121, #ed6d6d);
+}
+
+
+
+a {
+    color: black;
+}
+
+/*header-------------------------------------------------------------------------------------------------------------------*/
+
+.home-header {
+    position: fixed;
+    color: white;
+    z-index: 10;
+    background-image: linear-gradient(to right, #b02121, #ed6d6d);
+
+    padding: 21px;
+    top: 0px;
+    width: 100%;
+}
+
+.home-header h1 {
+    font-family: Snell Roundhand, cursive;
+    margin-bottom: 5px;
+    display: inline;
+}
+
+.home-header p {
+    margin-left: 40px;
+    margin-top: 5px;
+}
+.home-header img{
+    width: 50px;
+    height: 30px;
+    margin-left: 30px;
+    display: inline;
+}
+
+/*navbar-------------------------------------------------------------------------------------------------------------------*/
+
+.home-nav {
+    top: 120px;
+    position: fixed;
+    width: 100%;
+}
+
+.home-nav ul {
+    background-color: rgb(252, 62, 62);
+    padding: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.home-nav ul li {
+    color: white;
+    display: inline;
+    list-style: none;
+    font-size: 1.2em;
+    padding: 15px;
+}
+
+.home-nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/*main-------------------------------------------------------------------------------------------------------------------*/
+
+.home-main {
+    display: flex;
+    margin-top: 170px;
+    background: white;
+}
+
+.home-section {
+    background-color: white;
+    padding: 30px;
+    display: inline-block;
+    width: 70%;
+}
+
+.home-section div h2 {
+    color: rgb(0, 153, 255);
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2em;
+}
+
+.home-section div img {
+    float: left;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+}
+
+.home-section div p {
+    font-size: 1.2em;
+    font-family: Garamond, serif;
+}
+
+.home-main {
+    margin-bottom: 30px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/*sidebar-------------------------------------------------------------------------------------------------------------------*/
+
+.home-aside {
+    width: 25%;
+    position: fixed;
+    right: 0px;
+}
+
+.home-aside ul li a img {
+    width: 50px;
+    height: 50px;
+}
+
+.home-aside ul li a {
+    display: flex;
+    align-items: center;
+}
+
+.home-aside ul li a span {
+    margin-left: 20px;
+}
+
+.home-aside ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+/*footer--------------------------------------------------------------------------------------------------------------------------*/
+
+.home-footer {
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-image: linear-gradient(to right, #b02121, #ed6d6d);
+
+}
+
+.footer-copyright {
+    color: white;
+    display: inline-block;
+}
+
+.suscribe {
+    float: right;
+    display: inline-block;
+}
+
+.suscribe input {
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+
+.suscribe button {
+    border: none;
+    background-color: tomato;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    color: white;
+}
+html {
+    scroll-behavior: smooth;
+}
